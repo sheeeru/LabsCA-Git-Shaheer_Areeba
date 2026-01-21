@@ -11,11 +11,12 @@ main:
     add x8, x6, x7 #(a-d)+(b-a)
     add x9, x8, x5 #e = x8 + d
     add x10, x5, x9
-    add x11, x4, x10
+    add x9, x4, x10
 
 end:
     j end
 
 
     
+
     
