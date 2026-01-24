@@ -3,9 +3,9 @@
 main:
     #valyes for a b c and x
     li x21, 0 #a
-    li x22, 20          # b = 20
-    li x23, 10          # c = 10
-    li x20, 4           # x = 1 or 2 or 3 or 4
+    li x22, 20          #b = 20
+    li x23, 10          #c = 10
+    li x20, 4           #x = 1 or 2 or 3 or 4
 
     li x6, 1 #if x ==1
     li x7, 2 #if x==2
