@@ -13,7 +13,7 @@ loopouter:
 loopinner:
     bge x29, x6, endinner #if j>=b end inner loop
 
-    slli x28, x29, 4 #x28= j*4 (2^4)
+    slli x28, x29, 4 #x28 = j * 16 (byte offset for D[4*j])
     add x28, x28, x10 #x28 = address of D[4*j] 
 
     add x30, x7, x29 #x30 = i + j

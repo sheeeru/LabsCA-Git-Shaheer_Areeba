@@ -18,7 +18,7 @@ main:
     beq x20, x7, Case2
     beq x20, x28, Case3
     beq x20, x29, Case4
-    beq x0, x0, Exit
+    beq x0, x0, Default
 
 Case1:
     add x21, x22, x23
@@ -36,8 +36,8 @@ Case4:
     div x21, x22, x30
     j end  
 
-Exit:
-    addi, x21, x21, 0
+Default:
+    li x21, 0
     j end
 
 end:
