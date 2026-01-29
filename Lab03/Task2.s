@@ -1,10 +1,3 @@
-# long long int leaf_example (long long int g, long long int h, long long int i, long long int j)
-# {
-# long long int f;
-# f = (g+ h) - (i + j);
-# return f;
-# }
-
 .text
 .globl main
 main:
