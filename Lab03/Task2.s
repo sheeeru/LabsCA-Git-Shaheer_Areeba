@@ -20,10 +20,10 @@ main:
     j exit 
 
 leaf_example:
-    addi x2,x2, -24 #assign stack
-    sd x18, 0(x2)
-    sd x19, 8(x2)
-    sd x20, 16(x2)
+    addi x2,x2, -12 #assign stack
+    sw x18, 0(x2)
+    sw x19, 4(x2)
+    sw x20, 8(x2)
 
     add x18, x10, x11    #temp1 = g + h
     add x19, x12, x13    #temp2 = i + j
@@ -32,10 +32,10 @@ leaf_example:
     addi x10, x20, 0 #return f
 
 
-    ld x18, 0(x2)
-    ld x19, 8(x2)
-    ld x20, 16(x2)
-    addi x2, x2, 24 #free space for stack
+    lw x18, 0(x2)
+    lw x19, 4(x2)
+    lw x20, 8(x2)
+    addi x2, x2, 12 #free space for stack
     jalr x0, 0(x1)
 
 exit:
