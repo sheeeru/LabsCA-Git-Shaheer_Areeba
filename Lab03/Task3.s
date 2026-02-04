@@ -23,8 +23,8 @@ main:
     j exit
 
 swap:
-    li x20, 4
-    mul x6, x11, x20  #calculate offset k*4 [slli x6, x11, 2]
+    li x28, 4
+    mul x6, x11, x28  #calculate offset k*4 [slli x6, x11, 2]
     add x6, x10, x6
     #temp var
     lw x5, 0(x6)
