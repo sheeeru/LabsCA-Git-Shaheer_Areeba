@@ -25,7 +25,7 @@ ntri:
     jalr x0, 0(x1) #return from ntri
 
 end_ntri:
-    li x10, 1 #base case return 0
+    li x10, 1 #base case return 1
     jalr x0, 0(x1) #return from ntri
 
 end:
