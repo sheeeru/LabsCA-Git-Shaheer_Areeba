@@ -32,9 +32,11 @@ inner_loop:
     add x30, x30, x10 #base add + j*4
     lw x7, 0(x29) #load a[i] in the same
     lw x28, 0(x30) #load a[j] in the same 
-    ble x7, x28, skip #if a[j] < a[i] 
+    bge x7, x28, skip #if a[j] < a[i] 
     sw x28, 0(x29) #swap a[i] and a[j]
     sw x7, 0(x30)
+
+    j skip
 
 end_outer: 
     addi x5, x5, 1 #increment i
