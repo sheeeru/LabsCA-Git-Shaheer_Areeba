@@ -13,7 +13,7 @@ loop:
     li x5, 1 #1 to compare with the blt statement (if n<= 1)
     blt x10, x5, end_loop
     mul x6, x6, x10 #n- n*(n-1)
-    addi, x10, x10, -1 #decrement n
+    addi x10, x10, -1 #decrement n
     j loop
 
 end_loop:
