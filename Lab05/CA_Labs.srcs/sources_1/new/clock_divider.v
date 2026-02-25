@@ -31,7 +31,11 @@ module clock_divider (
     
     // We toggle the output every 50 Million ticks. 
     // 50M High + 50M Low = 100M total ticks = 1 full second.
-    localparam MAX_COUNT = 50_000_000 - 1;
+    
+    // TEMPORARILY CHANGED FOR SIMULATION ONLY!
+    // Change this back to 50_000_000 - 1 before programming the board!
+    localparam MAX_COUNT = 2;
+    //localparam MAX_COUNT = 50_000_000 - 1;
 
     always @(posedge clk_in) begin
         if (rst) begin
