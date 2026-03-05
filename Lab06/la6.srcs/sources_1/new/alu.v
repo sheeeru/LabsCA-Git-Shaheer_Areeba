@@ -32,8 +32,8 @@ module alu_1bit (
         case (ALUControl)
             4'b0000: ALUResult = A & B;           // AND
             4'b0001: ALUResult = A | B;           // OR
-            4'b0010: ALUResult = A ^ B;           // ADD 
-            4'b0110: ALUResult = A ^ B;           // SUB 
+            4'b0010: ALUResult = A + B;           // ADD 
+            4'b0110: ALUResult = A - B;           // SUB 
             4'b0100: ALUResult = A ^ B;           // XOR
             4'b1000: ALUResult = 1'b0;            // SLL 
             4'b1001: ALUResult = 1'b0;            // SRL 
