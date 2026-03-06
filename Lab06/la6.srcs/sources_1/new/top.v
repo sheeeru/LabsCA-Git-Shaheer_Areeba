@@ -25,8 +25,6 @@ module alu_top (
     output wire        alu_zero
 );
 
-    // Fixed operands per Lab 6 manual Task 3.e
-    // (You can change these to 32'd6 and 32'd3 for easier testing on the board!)
     wire [31:0] fixed_A = 32'h10101010; 
     wire [31:0] fixed_B = 32'h01010101; 
 
