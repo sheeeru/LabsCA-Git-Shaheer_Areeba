@@ -3,10 +3,10 @@
 <!--                                                         -->
 <!-- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="49" Path="C:/Users/Student/Downloads/Habib Uni/CA/LabsCA-Git-Shaheer_Areeba/Lab07/Lab07.xpr">
+<Project Version="7" Minor="49" Path="C:/Users/sq09647/Downloads/Lab07/Lab07.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="6f5c5c7c1d274f109c519516ea45f5dc"/>
+    <Option Name="Id" Val="c33681f666ca4ae4bd9643439fa11b76"/>
     <Option Name="Part" Val="xc7a35tcpg236-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
@@ -37,7 +37,7 @@
     <Option Name="IPUserFilesDir" Val="$PIPUSERFILESDIR"/>
     <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
     <Option Name="EnableBDX" Val="FALSE"/>
-    <Option Name="WTXSimLaunchSim" Val="0"/>
+    <Option Name="WTXSimLaunchSim" Val="3"/>
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>
@@ -66,125 +66,140 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
       <Filter Type="Srcs"/>
-      <File Path="$PSRCDIR/sources_1/new/Registerfile.v">
+      <File Path="$PSRCDIR/sources_1/imports/new/Registerfile.v">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../new/Registerfile.v"/>
+          <Attr Name="ImportTime" Val="1773293960"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Lab06/la6.srcs/sources_1/new/alu.v">
+      <File Path="$PSRCDIR/sources_1/imports/new/alu.v">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../new/alu.v"/>
+          <Attr Name="ImportTime" Val="1773293960"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Lab06/la6.srcs/sources_1/new/alu_32bit.v">
+      <File Path="$PSRCDIR/sources_1/imports/new/alu_32bit.v">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../new/alu_32bit.v"/>
+          <Attr Name="ImportTime" Val="1773293960"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Lab06/la6.srcs/sources_1/new/and_gate.v">
+      <File Path="$PSRCDIR/sources_1/imports/new/and_gate.v">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../new/and_gate.v"/>
+          <Attr Name="ImportTime" Val="1773293960"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Lab06/la6.srcs/sources_1/new/debouncer.v">
+      <File Path="$PSRCDIR/sources_1/imports/new/debouncer.v">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../new/debouncer.v"/>
+          <Attr Name="ImportTime" Val="1773293960"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Lab06/la6.srcs/sources_1/new/full_adder.v">
+      <File Path="$PSRCDIR/sources_1/imports/new/full_adder.v">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../new/full_adder.v"/>
+          <Attr Name="ImportTime" Val="1773293960"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Lab06/la6.srcs/sources_1/new/leds.v">
+      <File Path="$PSRCDIR/sources_1/imports/new/or_gate.v">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../new/or_gate.v"/>
+          <Attr Name="ImportTime" Val="1773293960"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Lab06/la6.srcs/sources_1/new/or_gate.v">
+      <File Path="$PSRCDIR/sources_1/imports/new/shifter_32bit.v">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../new/shifter_32bit.v"/>
+          <Attr Name="ImportTime" Val="1773293960"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Lab06/la6.srcs/sources_1/new/shifter_32bit.v">
+      <File Path="$PSRCDIR/sources_1/imports/new/switches.v">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../new/switches.v"/>
+          <Attr Name="ImportTime" Val="1773293960"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Lab06/la6.srcs/sources_1/new/switches.v">
+      <File Path="$PSRCDIR/sources_1/imports/new/xor_gate.v">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../new/xor_gate.v"/>
+          <Attr Name="ImportTime" Val="1773293960"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Lab06/la6.srcs/sources_1/new/xor_gate.v">
+      <File Path="$PSRCDIR/sources_1/imports/new/top_rf_alu.v">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../new/top_rf_alu.v"/>
+          <Attr Name="ImportTime" Val="1773294338"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../../top_rf_alu.v">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../Lab06/la6.srcs/sources_1/new/fsm_top.v">
+      <File Path="$PSRCDIR/sources_1/imports/new/sys_top.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../new/sys_top.v"/>
+          <Attr Name="ImportTime" Val="1773293960"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Lab06/la6.srcs/sources_1/new/top.v">
+      <File Path="$PSRCDIR/sources_1/imports/new/fsm_top.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../new/fsm_top.v"/>
+          <Attr Name="ImportTime" Val="1773293960"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Lab06/la6.srcs/sources_1/new/sys_top.v">
+      <File Path="$PSRCDIR/sources_1/imports/new/leds.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../new/leds.v"/>
+          <Attr Name="ImportTime" Val="1773293960"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../../RF_ALU_FSM_tb.v">
+      <File Path="$PSRCDIR/sources_1/imports/new/top.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../../../../RegisterFile_tb.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../new/top.v"/>
+          <Attr Name="ImportTime" Val="1773293960"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -193,12 +208,15 @@
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="top_rf_alu"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
       </Config>
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
       <Filter Type="Constrs"/>
-      <File Path="$PPRDIR/../Lab06/la6.srcs/constrs_1/new/sys_const.xdc">
+      <File Path="$PSRCDIR/constrs_1/imports/Downloads/sys_const.xdc">
         <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../sys_const.xdc"/>
+          <Attr Name="ImportTime" Val="1773293960"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
         </FileInfo>
@@ -208,10 +226,31 @@
       </Config>
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
+      <File Path="$PSRCDIR/sim_1/imports/tb/RF_ALU_FSM_tb.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../new/tb/RF_ALU_FSM_tb.v"/>
+          <Attr Name="ImportTime" Val="1773293960"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/tb/RegisterFile_tb.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../new/tb/RegisterFile_tb.v"/>
+          <Attr Name="ImportTime" Val="1773293960"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="RF_ALU_FSM_tb"/>
+        <Option Name="TopModule" Val="top_rf_alu"/>
         <Option Name="TopLib" Val="xil_defaultlib"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
         <Option Name="TransportPathDelay" Val="0"/>
         <Option Name="TransportIntDelay" Val="0"/>
         <Option Name="SelectedSimModel" Val="rtl"/>
@@ -248,19 +287,18 @@
     </Simulator>
   </Simulators>
   <Runs Version="1" Minor="11">
-    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7a35tcpg236-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7a35tcpg236-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020">
           <Desc>Vivado Synthesis Defaults</Desc>
         </StratHandle>
         <Step Id="synth_design"/>
       </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2020"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7a35tcpg236-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true" GenFullBitstream="true">
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7a35tcpg236-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" SynthRun="synth_1" IncludeInArchive="true" GenFullBitstream="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020">
           <Desc>Default settings for Implementation.</Desc>
@@ -275,7 +313,6 @@
         <Step Id="post_route_phys_opt_design"/>
         <Step Id="write_bitstream"/>
       </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
       <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2020"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>

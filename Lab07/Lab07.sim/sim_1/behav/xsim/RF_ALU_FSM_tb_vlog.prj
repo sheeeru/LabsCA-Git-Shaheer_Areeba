@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../new/Registerfile.v" \
+"../../../../../new/alu.v" \
+"../../../../../new/alu_32bit.v" \
+"../../../../../new/and_gate.v" \
+"../../../../../new/full_adder.v" \
+"../../../../../new/or_gate.v" \
+"../../../../../new/shifter_32bit.v" \
+"../../../../../new/xor_gate.v" \
+"../../../../../new/tb/RF_ALU_FSM_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

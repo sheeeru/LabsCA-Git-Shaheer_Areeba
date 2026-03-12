@@ -1,0 +1,17 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/sq09647/Downloads/Lab07/Lab07.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/sq09647/Downloads/new/Registerfile.v,1773293960,verilog,,C:/Users/sq09647/Downloads/new/alu.v,,RegisterFile,,,,,,,,
+C:/Users/sq09647/Downloads/new/alu.v,1773293960,verilog,,C:/Users/sq09647/Downloads/new/alu_32bit.v,,alu_1bit,,,,,,,,
+C:/Users/sq09647/Downloads/new/alu_32bit.v,1773293960,verilog,,C:/Users/sq09647/Downloads/new/and_gate.v,,alu_32bit,,,,,,,,
+C:/Users/sq09647/Downloads/new/and_gate.v,1773293960,verilog,,C:/Users/sq09647/Downloads/new/full_adder.v,,and_gate,,,,,,,,
+C:/Users/sq09647/Downloads/new/debouncer.v,1773293960,verilog,,C:/Users/sq09647/Downloads/new/full_adder.v,,debouncer,,,,,,,,
+C:/Users/sq09647/Downloads/new/full_adder.v,1773293960,verilog,,C:/Users/sq09647/Downloads/new/or_gate.v,,full_adder,,,,,,,,
+C:/Users/sq09647/Downloads/new/or_gate.v,1773293960,verilog,,C:/Users/sq09647/Downloads/new/shifter_32bit.v,,or_gate,,,,,,,,
+C:/Users/sq09647/Downloads/new/shifter_32bit.v,1773293960,verilog,,C:/Users/sq09647/Downloads/new/xor_gate.v,,shifter_32bit,,,,,,,,
+C:/Users/sq09647/Downloads/new/switches.v,1773293960,verilog,,C:/Users/sq09647/Downloads/new/xor_gate.v,,switches,,,,,,,,
+C:/Users/sq09647/Downloads/new/tb/RF_ALU_FSM_tb.v,1773293960,verilog,,,,RF_ALU_FSM_tb,,,,,,,,
+C:/Users/sq09647/Downloads/new/top_rf_alu.v,1773294338,verilog,,,,rf_alu_fsm;top_rf_alu,,,,,,,,
+C:/Users/sq09647/Downloads/new/xor_gate.v,1773293960,verilog,,C:/Users/sq09647/Downloads/new/tb/RF_ALU_FSM_tb.v,,xor_gate,,,,,,,,

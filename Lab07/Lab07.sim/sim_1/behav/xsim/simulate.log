@@ -1,0 +1,11 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+[FAIL] State 2 : got=0x10101010  exp=0x11111111
+[FAIL] State 3 : got=0x10101010  exp=0x0f0f0f0f
+[FAIL] State 4 : got=0x10101010  exp=0x00000000
+[FAIL] State 5 : got=0x10101010  exp=0x11111111
+[FAIL] State 6 : got=0x10101010  exp=0x11111111
+[FAIL] State 7 : got=0x10101010  exp=0x20202200
+[FAIL] State 8 : got=0x10101010  exp=0x00808080
+[FAIL] State 9 : got=0x00000000  exp=0x00000001
+[PASS] State 11 : got=0xabcd1234  exp=0xabcd1234
