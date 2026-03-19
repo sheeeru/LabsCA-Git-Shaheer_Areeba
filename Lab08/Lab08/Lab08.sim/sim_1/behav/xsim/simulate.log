@@ -1,0 +1,12 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+--- Reset complete ---
+Test 1 WRITE DataMem : addr=4   address[9:8]=00 (expect 00)
+Test 2 READ  DataMem : addr=4   readData=0xdeadbeef (expect DEADBEEF)
+Test 3 WRITE LEDs    : addr=512  address[9:8]=10 (expect 10)
+         leds=0x00f3 (expect 00F3)
+Test 4 READ  Switches: addr=768  readData=0x0000a55a (expect 0000A55A)
+Test 5 LED  write: address[9:8]=10 (expect 10)
+Test 5 SW   read : address[9:8]=11 (expect 11)
+--- All tests complete ---
+$finish called at time : 165 ns : File "C:/Users/sheeeru/Downloads/Lab08/Lab08.srcs/sim_1/imports/files/MemorySystem_tb.v" Line 122
