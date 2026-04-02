@@ -1,0 +1,27 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+=== MAIN CONTROL UNIT ===
+-- ld (0000011) --
+  [Main]          ld | RegWrite=1 ALUOp=00 MemRead=1 MemWrite=0 ALUSrc=1 MemtoReg=1 Branch=0
+-- sd (0100011) --
+  [Main]          sd | RegWrite=0 ALUOp=00 MemRead=0 MemWrite=1 ALUSrc=1 MemtoReg=1 Branch=0
+-- beq (1100011) --
+  [Main]         beq | RegWrite=0 ALUOp=01 MemRead=0 MemWrite=0 ALUSrc=0 MemtoReg=1 Branch=1
+-- R-type (0110011) --
+  [Main]      R-type | RegWrite=1 ALUOp=10 MemRead=0 MemWrite=0 ALUSrc=0 MemtoReg=0 Branch=0
+
+=== ALU CONTROL UNIT ===
+-- ALUOp=00 -> add (ld) --
+    Opcode=0000011 funct7[5]=0 funct3=000 -> ALUControl=0010  PASS
+    Opcode=0000011 funct7[5]=0 funct3=000 -> ALUControl=0010  PASS
+-- ALUOp=01 -> subtract (beq) --
+    Opcode=1100011 funct7[5]=0 funct3=000 -> ALUControl=0110  PASS
+    Opcode=1100011 funct7[5]=0 funct3=000 -> ALUControl=0110  PASS
+-- ALUOp=10 -> R-type Operations --
+    Opcode=0110011 funct7[5]=0 funct3=000 -> ALUControl=0010  PASS
+    Opcode=0110011 funct7[5]=1 funct3=000 -> ALUControl=0110  PASS
+    Opcode=0110011 funct7[5]=0 funct3=111 -> ALUControl=0000  PASS
+    Opcode=0110011 funct7[5]=0 funct3=110 -> ALUControl=0001  PASS
+
+=== SIMULATION COMPLETE ===
+$finish called at time : 125 ns : File "C:/Users/ai09625/Downloads/Lab09/Lab09.srcs/sim_1/new/tb_control.v" Line 160
