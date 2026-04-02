@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="49" Path="C:/Users/Student/Downloads/Lab09/Lab09.xpr">
+<Project Version="7" Minor="49" Path="C:/Users/Student/Downloads/Habib Uni/CA/LabsCA-Git-Shaheer_Areeba/Lab09/Lab09.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="0c4c19cbb2ee4fa5b038f10517889ad8"/>
@@ -73,28 +73,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Habib Uni/CA/LabsCA-Git-Shaheer_Areeba/Lab05/CA_Labs.srcs/sources_1/new/debouncer.v">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../Habib Uni/CA/LabsCA-Git-Shaheer_Areeba/Lab05/CA_Labs.srcs/sources_1/new/leds.v">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
       <File Path="$PSRCDIR/sources_1/new/main_control.v">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../Habib Uni/CA/LabsCA-Git-Shaheer_Areeba/Lab05/CA_Labs.srcs/sources_1/new/switches.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -108,7 +87,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../LabsCA-Git-Shaheer_Areeba/Lab05/CA_Labs.srcs/sources_1/new/leds.v">
+      <File Path="$PPRDIR/../Lab05/CA_Labs.srcs/sources_1/new/leds.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -116,7 +95,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../LabsCA-Git-Shaheer_Areeba/Lab05/CA_Labs.srcs/sources_1/new/switches.v">
+      <File Path="$PPRDIR/../Lab05/CA_Labs.srcs/sources_1/new/switches.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -124,7 +103,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../LabsCA-Git-Shaheer_Areeba/Lab05/CA_Labs.srcs/sources_1/new/debouncer.v">
+      <File Path="$PPRDIR/../Lab05/CA_Labs.srcs/sources_1/new/debouncer.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
