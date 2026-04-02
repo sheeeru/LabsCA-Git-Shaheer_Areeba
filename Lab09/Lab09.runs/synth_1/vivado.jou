@@ -2,8 +2,8 @@
 # Vivado v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Fri Apr  3 00:19:45 2026
-# Process ID: 12276
+# Start of session at: Fri Apr  3 00:51:05 2026
+# Process ID: 13892
 # Current directory: C:/Users/Student/Downloads/Habib Uni/CA/LabsCA-Git-Shaheer_Areeba/Lab09/Lab09.runs/synth_1
 # Command line: vivado.exe -log top_control.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_control.tcl
 # Log file: C:/Users/Student/Downloads/Habib Uni/CA/LabsCA-Git-Shaheer_Areeba/Lab09/Lab09.runs/synth_1/top_control.vds

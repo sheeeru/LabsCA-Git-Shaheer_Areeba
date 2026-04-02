@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1775157581">
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1775159461">
   <File Type="PA-TCL" Name="top_control.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="top_control_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="top_control_reports.tcl"/>
@@ -32,6 +32,14 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PPRDIR/../Lab05/CA_Labs.srcs/sources_1/new/debouncer.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PPRDIR/../Lab05/CA_Labs.srcs/sources_1/new/leds.v">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
@@ -41,14 +49,6 @@
       </FileInfo>
     </File>
     <File Path="$PPRDIR/../Lab05/CA_Labs.srcs/sources_1/new/switches.v">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../Lab05/CA_Labs.srcs/sources_1/new/debouncer.v">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
