@@ -14,7 +14,7 @@ module alu_control(
         case(ALUOp)
             2'b00:
                 // Load/Store: Always performs an addition for address calculation
-                ALUControl = 4'b0010; 
+                ALUControl = 4'b0000; 
 
             2'b01: 
                 // Branch: Always performs a subtraction to compare values

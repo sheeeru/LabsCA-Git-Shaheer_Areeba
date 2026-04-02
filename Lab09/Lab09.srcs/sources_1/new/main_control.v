@@ -8,48 +8,56 @@ module main_control(
     output reg       MemWrite,
     output reg       ALUSrc,
     output reg       MemtoReg,
-    output reg       Branch
+    output reg       Branch,
+    output reg       InstrValid
 );
     
     always @(*) begin
         // Default values to prevent latches
-        RegWrite = 0; 
-        ALUSrc   = 0; 
-        MemRead  = 0; 
-        MemWrite = 0; 
-        MemtoReg = 0; 
-        Branch   = 0; 
-        ALUOp    = 2'b00;
+        RegWrite   = 0; 
+        ALUSrc     = 0; 
+        MemRead    = 0; 
+        MemWrite   = 0; 
+        MemtoReg   = 0; 
+        Branch     = 0; 
+        ALUOp      = 2'b00;
+        InstrValid = 0;
+
 
         case(opcode)
             7'b0110011: begin // R-type
-                RegWrite = 1; 
-                ALUOp    = 2'b10;
+                RegWrite   = 1; 
+                ALUOp      = 2'b10;
+                InstrValid = 1;
             end
 
             7'b0010011: begin // I-type (ADDI)
-                RegWrite = 1; 
-                ALUSrc   = 1; 
-                ALUOp    = 2'b11;
+                RegWrite   = 1; 
+                ALUSrc     = 1; 
+                ALUOp      = 2'b11;
+                InstrValid = 1;
             end
 
             7'b0000011: begin // Load (LW, LH, LB)
-                RegWrite = 1; 
-                ALUSrc   = 1; 
-                MemRead  = 1; 
-                MemtoReg = 1; 
-                ALUOp    = 2'b00;
+                RegWrite   = 1; 
+                ALUSrc     = 1; 
+                MemRead    = 1; 
+                MemtoReg   = 1; 
+                ALUOp      = 2'b00;
+                InstrValid = 1;
             end
 
             7'b0100011: begin // Store (SW, SH, SB)
-                ALUSrc   = 1; 
-                MemWrite = 1; 
-                ALUOp    = 2'b00;
+                ALUSrc     = 1; 
+                MemWrite   = 1; 
+                ALUOp      = 2'b00;
+                InstrValid = 1;
             end
 
             7'b1100011: begin // Branch (BEQ)
-                Branch   = 1; 
-                ALUOp    = 2'b01;
+                Branch     = 1; 
+                ALUOp      = 2'b01;
+                InstrValid = 1;
             end
 
             default: begin
