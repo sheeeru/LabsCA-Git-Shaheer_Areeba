@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1775159461">
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1775160760">
   <File Type="PA-TCL" Name="top_control.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="top_control_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="top_control_reports.tcl"/>
@@ -59,6 +59,7 @@
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
       <Option Name="TopModule" Val="top_control"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">

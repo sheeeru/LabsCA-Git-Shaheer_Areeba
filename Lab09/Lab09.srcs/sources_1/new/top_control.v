@@ -1,4 +1,10 @@
 `timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Module Name: top_control
+// Description: Top-level FPGA design for RISC-V control path (Lab 9 Task 3)
+//              Reads switches, decodes control signals, drives LEDs.
+//              Uses InstrValid to gate outputs - LEDs stay off for invalid opcodes.
+//////////////////////////////////////////////////////////////////////////////////
 
 module top_control (
     input        clk,
@@ -8,7 +14,11 @@ module top_control (
 );
 
     // -----------------------------------------------------------------------
-    // Extract instruction fields DIRECTLY from switches
+    // Extract instruction fields from switches
+    //   SW[14:8] = opcode[6:0]
+    //   SW[7:5]  = funct3[2:0]
+    //   SW[4]    = funct7 bit 5 (ADD vs SUB)
+    //   SW[15], SW[3:0] = reserved (unused)
     // -----------------------------------------------------------------------
     wire [6:0] opcode;
     wire [2:0] funct3;
