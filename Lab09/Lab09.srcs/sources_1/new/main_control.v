@@ -61,7 +61,14 @@ module main_control(
             end
 
             default: begin
-                // Keeps safe zeros for undefined opcodes
+                RegWrite   = 0; 
+                ALUSrc     = 0; 
+                MemRead    = 0; 
+                MemWrite   = 0; 
+                MemtoReg   = 0; 
+                Branch     = 0; 
+                ALUOp      = 2'b00;
+                InstrValid = 0;
             end
         endcase
     end

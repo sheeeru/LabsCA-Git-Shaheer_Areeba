@@ -2,37 +2,29 @@
 //////////////////////////////////////////////////////////////////////////////////
 // Module Name: final_top
 // Description: Complete top-level module with FSM and debouncer
-//              Matches the schematic shown in lab requirements
-//
-// Architecture:
-//   final_top
-//     ??> debouncer (cleans reset signal)
-//     ??> FSM (IDLE ? COMPUTE ? DISPLAY)
-//     ??> switch sampling logic
-//     ??> top_control (main_control + alu_control)
-//     ??> LED output register
 //////////////////////////////////////////////////////////////////////////////////
 
 module final_top (
     input        clk,       // 100 MHz clock
-    input        rst,       // Reset button (will be debounced)
+    input        rst,       // Reset button
     input  [15:0] sw,       // 16 switches
     output [15:0] led       // 16 LEDs
 );
 
     //========================================================================
     // DEBOUNCER - Clean the reset signal
+    // FIX: Updated port names to match pbin and pbout from your debouncer.v
     //========================================================================
     wire rst_debounced;
     
     debouncer rst_debouncer (
         .clk   (clk),
-        .btn_in (rst),
-        .btn_out(rst_debounced)
+        .pbin  (rst),
+        .pbout (rst_debounced)
     );
 
     //========================================================================
-    // FSM State Encoding
+    // FSM State Encoding & Register
     //========================================================================
     localparam IDLE    = 2'b00;
     localparam COMPUTE = 2'b01;
@@ -40,9 +32,6 @@ module final_top (
     
     reg [1:0] state, next_state;
 
-    //========================================================================
-    // FSM State Register
-    //========================================================================
     always @(posedge clk or posedge rst_debounced) begin
         if (rst_debounced)
             state <= IDLE;
@@ -50,9 +39,6 @@ module final_top (
             state <= next_state;
     end
 
-    //========================================================================
-    // FSM Next State Logic
-    //========================================================================
     always @(*) begin
         case (state)
             IDLE:    next_state = COMPUTE;
@@ -101,41 +87,41 @@ module final_top (
     //========================================================================
     // LED Output Assignment
     //========================================================================
-    assign led = led_reg;
+    assign led = led_reg; 
 
-endmodule
+    //========================================================================
+    // Memory-Mapped I/O Modules (Disconnected from physical LEDs for this test)
+    //========================================================================
+    wire [31:0] cpu_writeData = 32'd0; 
+    wire        cpu_writeEnable = 1'b0;
+    wire        cpu_readEnable = 1'b0;
+    wire [29:0] cpu_memAddress = 30'd0;
+    
+    wire [31:0] mmio_readData_sw;
+    wire [31:0] mmio_readData_led;
+    wire [15:0] internal_led_dummy; // Dummy wire so switches module doesn't drive physical LEDs
 
+    switches mmio_switches_inst (
+        .clk         (clk),
+        .rst         (rst_debounced),
+        .writeData   (cpu_writeData),
+        .writeEnable (cpu_writeEnable),
+        .readEnable  (cpu_readEnable),
+        .memAddress  (cpu_memAddress),
+        .readData    (mmio_readData_sw),
+        .leds        (internal_led_dummy) // Prevent short circuit
+    );
 
-//////////////////////////////////////////////////////////////////////////////////
-// Module: debouncer
-// Description: Debounces button inputs to provide clean signals
-//////////////////////////////////////////////////////////////////////////////////
-module debouncer (
-    input  clk,
-    input  btn_in,
-    output reg btn_out
-);
-    
-    // Debounce counter - counts to ~10ms at 100MHz
-    reg [19:0] counter;
-    reg btn_sync_0, btn_sync_1;
-    
-    // Synchronize button input to clock domain
-    always @(posedge clk) begin
-        btn_sync_0 <= btn_in;
-        btn_sync_1 <= btn_sync_0;
-    end
-    
-    // Debounce logic
-    always @(posedge clk) begin
-        if (btn_sync_1 != btn_out) begin
-            counter <= counter + 1;
-            if (counter == 20'd1000000)  // ~10ms at 100MHz
-                btn_out <= btn_sync_1;
-        end
-        else begin
-            counter <= 20'd0;
-        end
-    end
-    
+    leds mmio_leds_inst (
+        .clk         (clk),
+        .rst         (rst_debounced),
+        .btns        (16'd0),            
+        .writeData   (cpu_writeData),
+        .writeEnable (cpu_writeEnable),
+        .readEnable  (cpu_readEnable),
+        .memAddress  (cpu_memAddress),
+        .switches    (sw_sampled),      
+        .readData    (mmio_readData_led)
+    );
+
 endmodule

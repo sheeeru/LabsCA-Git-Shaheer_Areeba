@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:{C:/Users/Student/Downloads/Habib Uni/CA/LabsCA-Git-Shaheer_Areeba/Lab09/Lab09.srcs/constrs_1/new/top_control.xdc} rfile:../../../Lab09.srcs/constrs_1/new/top_control.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:{C:/Users/Student/Downloads/Habib Uni/LabsCA-Git-Shaheer_Areeba/Lab09/Lab09.srcs/constrs_1/new/top_control.xdc} rfile:../../../Lab09.srcs/constrs_1/new/top_control.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:23 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN W5  [get_ports clk]
 set_property src_info {type:XDC file:1 line:28 export:INPUT save:INPUT read:READ} [current_design]
