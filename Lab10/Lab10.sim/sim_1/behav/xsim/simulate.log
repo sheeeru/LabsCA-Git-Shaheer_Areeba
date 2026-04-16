@@ -1,0 +1,89 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 0
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 1
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 2
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 3
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 4
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 5
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 6
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 7
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 8
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 9
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 10
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 11
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 12
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 13
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 14
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 15
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 16
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 17
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 18
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 19
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 20
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 21
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 22
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 23
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 24
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 25
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 26
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 27
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 28
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 29
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 30
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 31
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 32
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 33
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 34
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 35
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 36
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 37
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 38
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 39
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 40
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 41
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 42
+WARNING: Data truncated while reading Datafile: instruction.mem, while loading at index: 43
+---- Sequential Fetch Test ----
+Addr: 0 | Instruction: 93139313
+Addr: 4 | Instruction: 03232313
+Addr: 8 | Instruction: 13e303e3
+Addr: 12 | Instruction: 1383ef23
+Addr: 16 | Instruction: 232313e3
+Addr: 20 | Instruction: 636323b3
+Addr: 24 | Instruction: 93630323
+Addr: 28 | Instruction: 13630313
+Addr: 32 | Instruction: 8323e3e3
+Addr: 36 | Instruction: 23671303
+Addr: 40 | Instruction: 67130383
+Addr: 44 | Instruction: xxxxxxxx
+Addr: 48 | Instruction: xxxxxxxx
+Addr: 52 | Instruction: xxxxxxxx
+Addr: 56 | Instruction: xxxxxxxx
+Addr: 60 | Instruction: xxxxxxxx
+Addr: 64 | Instruction: xxxxxxxx
+Addr: 68 | Instruction: xxxxxxxx
+Addr: 72 | Instruction: xxxxxxxx
+Addr: 76 | Instruction: xxxxxxxx
+Addr: 80 | Instruction: xxxxxxxx
+Addr: 84 | Instruction: xxxxxxxx
+Addr: 88 | Instruction: xxxxxxxx
+Addr: 92 | Instruction: xxxxxxxx
+Addr: 96 | Instruction: xxxxxxxx
+Addr: 100 | Instruction: xxxxxxxx
+Addr: 104 | Instruction: xxxxxxxx
+Addr: 108 | Instruction: xxxxxxxx
+Addr: 112 | Instruction: xxxxxxxx
+Addr: 116 | Instruction: xxxxxxxx
+Addr: 120 | Instruction: xxxxxxxx
+Addr: 124 | Instruction: xxxxxxxx
+Addr: 128 | Instruction: xxxxxxxx
+Addr: 132 | Instruction: xxxxxxxx
+Addr: 136 | Instruction: xxxxxxxx
+Addr: 140 | Instruction: xxxxxxxx
+Addr: 144 | Instruction: xxxxxxxx
+Addr: 148 | Instruction: xxxxxxxx
+Addr: 152 | Instruction: xxxxxxxx
+Addr: 156 | Instruction: xxxxxxxx
+Addr: 160 | Instruction: xxxxxxxx
+$finish called at time : 410 ns : File "C:/Users/Student/Downloads/Lab10/Lab10/Lab10.srcs/sim_1/new/tb_instructionMemory.v" Line 105
