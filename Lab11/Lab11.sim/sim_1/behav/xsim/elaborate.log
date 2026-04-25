@@ -1,6 +1,6 @@
 Vivado Simulator 2020.1
 Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 5388643bf21e4a6c9201d2d4811069dc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_Task1_behav xil_defaultlib.tb_Task1 xil_defaultlib.glbl -log elaborate.log 
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 5388643bf21e4a6c9201d2d4811069dc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_TopLevelProcessor_behav xil_defaultlib.tb_TopLevelProcessor xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
@@ -11,8 +11,24 @@ Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.ProgramCounter
 Compiling module xil_defaultlib.pcAdder
 Compiling module xil_defaultlib.branchAdder
-Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.instructionMemory
+Compiling module xil_defaultlib.main_control
+Compiling module xil_defaultlib.alu_control
+Compiling module xil_defaultlib.RegisterFile
 Compiling module xil_defaultlib.immGen
-Compiling module xil_defaultlib.tb_Task1
+Compiling module xil_defaultlib.and_gate
+Compiling module xil_defaultlib.or_gate
+Compiling module xil_defaultlib.xor_gate
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.alu_1bit
+Compiling module xil_defaultlib.shifter_32bit
+Compiling module xil_defaultlib.alu_32bit_default
+Compiling module xil_defaultlib.AddressDecoder
+Compiling module xil_defaultlib.DataMemory
+Compiling module xil_defaultlib.switches
+Compiling module xil_defaultlib.leds
+Compiling module xil_defaultlib.addressDecoderTop
+Compiling module xil_defaultlib.TopLevelProcessor
+Compiling module xil_defaultlib.tb_TopLevelProcessor
 Compiling module xil_defaultlib.glbl
-Built simulation snapshot tb_Task1_behav
+Built simulation snapshot tb_TopLevelProcessor_behav

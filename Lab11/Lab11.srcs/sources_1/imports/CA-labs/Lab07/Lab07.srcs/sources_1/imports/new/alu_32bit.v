@@ -87,5 +87,6 @@ module alu_32bit(
     // --- Final Output Mux & Zero Flag ---
     assign ALUResult = is_shift ? shift_result : ripple_result;
     assign Zero = (ALUResult == 32'd0) ? 1'b1 : 1'b0;
+    assign ALUResult = B<<12;
 
 endmodule

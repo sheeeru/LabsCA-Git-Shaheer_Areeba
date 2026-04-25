@@ -1,0 +1,30 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Lab11.srcs/sources_1/imports/files/AddressDecoder.v" \
+"../../../../Lab11.srcs/sources_1/imports/files/DataMemory.v" \
+"../../../../Lab11.srcs/sources_1/new/ProgramCounter.v" \
+"../../../../Lab11.srcs/sources_1/imports/CA-labs/Lab07/Lab07.srcs/sources_1/imports/new/Registerfile.v" \
+"../../../../Lab11.srcs/sources_1/new/TopLevelProcessor.v" \
+"../../../../Lab11.srcs/sources_1/imports/files/addressDecoderTop.v" \
+"../../../../Lab11.srcs/sources_1/imports/CA-labs/Lab07/Lab07.srcs/sources_1/imports/new/alu.v" \
+"../../../../Lab11.srcs/sources_1/imports/CA-labs/Lab07/Lab07.srcs/sources_1/imports/new/alu_32bit.v" \
+"../../../../Lab11.srcs/sources_1/imports/CA-labs/Lab09/Lab09.srcs/sources_1/new/alu_control.v" \
+"../../../../Lab11.srcs/sources_1/imports/CA-labs/Lab07/Lab07.srcs/sources_1/imports/new/and_gate.v" \
+"../../../../Lab11.srcs/sources_1/new/branchAdder.v" \
+"../../../../Lab11.srcs/sources_1/imports/CA-labs/Lab07/Lab07.srcs/sources_1/imports/new/full_adder.v" \
+"../../../../Lab11.srcs/sources_1/new/immGen.v" \
+"../../../../Lab11.srcs/sources_1/imports/CA-labs/Lab10/Lab10.srcs/sources_1/new/instructionMemory.v" \
+"../../../../Lab11.srcs/sources_1/imports/files/leds.v" \
+"../../../../Lab11.srcs/sources_1/imports/CA-labs/Lab09/Lab09.srcs/sources_1/new/main_control.v" \
+"../../../../Lab11.srcs/sources_1/imports/CA-labs/Lab07/Lab07.srcs/sources_1/imports/new/or_gate.v" \
+"../../../../Lab11.srcs/sources_1/new/pcAdder.v" \
+"../../../../Lab11.srcs/sources_1/imports/CA-labs/Lab07/Lab07.srcs/sources_1/imports/new/shifter_32bit.v" \
+"../../../../Lab11.srcs/sources_1/imports/files/switches.v" \
+"../../../../Lab11.srcs/sources_1/imports/CA-labs/Lab07/Lab07.srcs/sources_1/imports/new/xor_gate.v" \
+"../../../../Lab11.srcs/sources_1/new/tb_TopLevelProcessor.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

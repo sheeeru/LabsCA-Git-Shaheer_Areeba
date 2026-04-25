@@ -1,0 +1,12 @@
+
+// 1. I-Type (ADDI)
+0x1FF00113  // addi x2, x0, 511
+
+// 2. R-Type (ADD) 
+0x000505B3  // add x11, x10, x0  (Example of R-type arithmetic)
+
+// 3. J-Type (JAL)
+0x010000EF  // jal x1, <offset>  (Demonstrates an unconditional jump)
+
+// 4. B-Type (BNE / BEQ)
+0xFE051CE3  // bne x10, x0, <offset> (Demonstrates branch control logic)
