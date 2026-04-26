@@ -34,21 +34,9 @@ module tb_TopLevelProcessor;
         sw = 16'h0000; 
 
         // ========================================================
-        // HARDCODED INSTRUCTIONS
+        // Instructions are loaded automatically from instruction.mem
+        // by the instructionMemory module.
         // ========================================================
-        dut.u_instrMem.memory[0]  = 32'h12345237; // lui x4 0x12345
-//        dut.u_instrMem.memory[0]  = 32'h00600113; // addi x2, x0, 6   (li x2, 6)
-        dut.u_instrMem.memory[1]  = 32'h00800193; // addi x3, x0, 8   (li x3, 8)
-        dut.u_instrMem.memory[2]  = 32'h00310233; // add x4, x2, x3   (x4 = 6 + 8 = 14)
-        dut.u_instrMem.memory[3]  = 32'h40310233; // sub x4, x2, x3   (x4 = 6 - 8 = -2)
-        dut.u_instrMem.memory[4]  = 32'h00314233; // xor x4, x2, x3   (x4 = 6 ^ 8)
-        dut.u_instrMem.memory[5]  = 32'h00316233; // or  x4, x2, x3   (x4 = 6 | 8)
-        dut.u_instrMem.memory[6]  = 32'h00317233; // and x4, x2, x3   (x4 = 6 & 8)
-        dut.u_instrMem.memory[7]  = 32'h00210463; // beq x2, x2, +8 
-        dut.u_instrMem.memory[8]  = 32'h06300213; // addi x4, x0, 99  (DUMMY)
-        dut.u_instrMem.memory[9]  = 32'h008000EF; // jal x1, +8 
-        dut.u_instrMem.memory[10] = 32'h06400213; // addi x4, x0, 100 (DUMMY)
-        dut.u_instrMem.memory[11] = 32'h00000063; // beq x0, x0, 0    (Infinite loop)
 
         // Hold reset for 20ns to ENSURE the PC module initializes to 0
         #20;
