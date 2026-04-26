@@ -1,0 +1,31 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../RiscVProject.srcs/sources_1/imports/files/AddressDecoder.v" \
+"../../../../RiscVProject.srcs/sources_1/imports/files/DataMemory.v" \
+"../../../../RiscVProject.srcs/sources_1/imports/files/ProgramCounter.v" \
+"../../../../RiscVProject.srcs/sources_1/imports/files/Registerfile.v" \
+"../../../../RiscVProject.srcs/sources_1/imports/files/TopLevelProcessor.v" \
+"../../../../RiscVProject.srcs/sources_1/imports/files/addressDecoderTop.v" \
+"../../../../RiscVProject.srcs/sources_1/imports/files/alu.v" \
+"../../../../RiscVProject.srcs/sources_1/imports/files/alu_32bit.v" \
+"../../../../RiscVProject.srcs/sources_1/imports/files/alu_control.v" \
+"../../../../RiscVProject.srcs/sources_1/imports/files/and_gate.v" \
+"../../../../RiscVProject.srcs/sources_1/imports/files/branchAdder.v" \
+"../../../../RiscVProject.srcs/sources_1/imports/files/full_adder.v" \
+"../../../../RiscVProject.srcs/sources_1/imports/files/immGen.v" \
+"../../../../RiscVProject.srcs/sources_1/imports/files/instructionMemory.v" \
+"../../../../RiscVProject.srcs/sources_1/imports/files/leds.v" \
+"../../../../RiscVProject.srcs/sources_1/imports/files/main_control.v" \
+"../../../../RiscVProject.srcs/sources_1/imports/files/mux2.v" \
+"../../../../RiscVProject.srcs/sources_1/imports/files/or_gate.v" \
+"../../../../RiscVProject.srcs/sources_1/imports/files/pcAdder.v" \
+"../../../../RiscVProject.srcs/sources_1/imports/files/shifter_32bit.v" \
+"../../../../RiscVProject.srcs/sources_1/imports/files/switches.v" \
+"../../../../RiscVProject.srcs/sources_1/imports/files/xor_gate.v" \
+"../../../../RiscVProject.srcs/sim_1/imports/files/tb_TopLevelProcessor.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

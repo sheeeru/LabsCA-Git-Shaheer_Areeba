@@ -3,7 +3,7 @@ Time resolution is 1 ps
 =======================================================================
  Time |    PC    | Instruction | ALU Result | Zero | Branch | RegWrite 
 =======================================================================
-                   0 | 00000000 |   12345237  |  00000000  |   1  |   0    |    1
+                   0 | 00000000 |   12345237  |  12345000  |   0  |   0    |    1
                25000 | 00000004 |   00800193  |  00000008  |   0  |   0    |    1
                35000 | 00000008 |   00310233  |  00000008  |   0  |   0    |    1
                45000 | 0000000c |   40310233  |  fffffff8  |   0  |   0    |    1
@@ -13,4 +13,4 @@ Time resolution is 1 ps
                85000 | 0000001c |   00210463  |  00000000  |   1  |   1    |    0
                95000 | 00000024 |   008000ef  |  00000000  |   1  |   0    |    1
               105000 | 0000002c |   00000063  |  00000000  |   1  |   1    |    0
-$finish called at time : 320 ns : File "C:/Users/ai09625/Downloads/Lab11/Lab11/Lab11.srcs/sources_1/new/tb_TopLevelProcessor.v" Line 60
+$finish called at time : 320 ns : File "C:/Users/Student/Downloads/CA project/LabsCA-Git-Shaheer_Areeba/Lab11/Lab11.srcs/sources_1/new/tb_TopLevelProcessor.v" Line 60

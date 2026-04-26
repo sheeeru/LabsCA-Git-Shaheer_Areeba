@@ -8,14 +8,11 @@ Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.ProgramCounter
-Compiling module xil_defaultlib.pcAdder
-Compiling module xil_defaultlib.branchAdder
 Compiling module xil_defaultlib.instructionMemory
 Compiling module xil_defaultlib.main_control
-Compiling module xil_defaultlib.alu_control
 Compiling module xil_defaultlib.RegisterFile
 Compiling module xil_defaultlib.immGen
+Compiling module xil_defaultlib.alu_control
 Compiling module xil_defaultlib.and_gate
 Compiling module xil_defaultlib.or_gate
 Compiling module xil_defaultlib.xor_gate
