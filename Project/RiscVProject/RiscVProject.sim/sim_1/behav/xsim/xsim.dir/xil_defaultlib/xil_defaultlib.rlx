@@ -3,7 +3,7 @@
 May 27 2020
 20:09:33
 C:/Users/Student/Downloads/CA project/LabsCA-Git-Shaheer_Areeba/Project/RiscVProject/RiscVProject.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
-C:/Users/Student/Downloads/CA project/LabsCA-Git-Shaheer_Areeba/Project/RiscVProject/RiscVProject.srcs/sim_1/imports/files/tb_TopLevelProcessor.v,1777187897,verilog,,,,tb_TopLevelProcessor,,,,,,,,
+C:/Users/Student/Downloads/CA project/LabsCA-Git-Shaheer_Areeba/Project/RiscVProject/RiscVProject.srcs/sim_1/imports/files/tb_TopLevelProcessor.v,1777219900,verilog,,,,tb_TopLevelProcessor,,,,,,,,
 C:/Users/Student/Downloads/CA project/LabsCA-Git-Shaheer_Areeba/Project/RiscVProject/RiscVProject.srcs/sources_1/imports/files/AddressDecoder.v,1777187897,verilog,,C:/Users/Student/Downloads/CA project/LabsCA-Git-Shaheer_Areeba/Project/RiscVProject/RiscVProject.srcs/sources_1/imports/files/DataMemory.v,,AddressDecoder,,,,,,,,
 C:/Users/Student/Downloads/CA project/LabsCA-Git-Shaheer_Areeba/Project/RiscVProject/RiscVProject.srcs/sources_1/imports/files/DataMemory.v,1777187897,verilog,,C:/Users/Student/Downloads/CA project/LabsCA-Git-Shaheer_Areeba/Project/RiscVProject/RiscVProject.srcs/sources_1/imports/files/ProgramCounter.v,,DataMemory,,,,,,,,
 C:/Users/Student/Downloads/CA project/LabsCA-Git-Shaheer_Areeba/Project/RiscVProject/RiscVProject.srcs/sources_1/imports/files/ProgramCounter.v,1777187897,verilog,,C:/Users/Student/Downloads/CA project/LabsCA-Git-Shaheer_Areeba/Project/RiscVProject/RiscVProject.srcs/sources_1/imports/files/Registerfile.v,,ProgramCounter,,,,,,,,

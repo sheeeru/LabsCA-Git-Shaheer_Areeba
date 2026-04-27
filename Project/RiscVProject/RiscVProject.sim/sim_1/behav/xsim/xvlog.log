@@ -44,5 +44,3 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/Downloads/CA proje
 INFO: [VRFC 10-311] analyzing module xor_gate
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/Downloads/CA project/LabsCA-Git-Shaheer_Areeba/Project/RiscVProject/RiscVProject.srcs/sim_1/imports/files/tb_TopLevelProcessor.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module tb_TopLevelProcessor
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Student/Downloads/CA project/LabsCA-Git-Shaheer_Areeba/Project/RiscVProject/RiscVProject.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl
